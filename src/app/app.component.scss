@@ -1,0 +1,371 @@
+$charcoal: #252525;
+$cream: #fffef2;
+
+.bodyTop,
+.bodyBottom {
+  flex: 1;
+}
+a,
+a:visited,
+a:hover,
+a:active {
+  color: $cream;
+}
+.ee,
+.ee:visited,
+.ee:hover,
+.ee:active {
+  color: $charcoal;
+}
+.bottomNav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 16px;
+  // position: sticky;
+  // top: 0;
+  background-color: $cream;
+  padding-bottom: 10px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  .bodyTop {
+    background-color: $charcoal;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    .ZR {
+      font-family: "Playfair Display", sans-serif;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+      font-size: 300px;
+      color: $cream;
+      line-height: 0.92;
+    }
+  }
+
+  .bodyBottom {
+    background-color: $cream;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Libre Franklin", sans-serif;
+    .infotainer {
+      .ZR2 {
+        display: flex;
+        font-weight: 750;
+        font-size: 56px;
+        color: $charcoal;
+        width: 100%;
+        justify-content: center;
+      }
+      .divider {
+        width: 100%;
+        height: 3px;
+        background-color: $charcoal;
+        margin: 8px 0;
+      }
+      .softwareEngineer {
+        font-size: 45px;
+        color: $charcoal;
+      }
+    }
+    .spacer {
+      flex-grow: 1;
+    }
+  }
+}
+.skills {
+  flex-direction: column;
+  align-items: center;
+  background-color: $charcoal;
+  color: $cream;
+
+  .frameworks {
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    font-size: 21px;
+    gap: 40px;
+    margin-bottom: 32px;
+  }
+
+  .category {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+
+    ul {
+      margin: 0;
+    }
+
+    .title {
+      font-size: 21px;
+    }
+  }
+}
+.aa {
+}
+.containerMargin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 75px;
+  padding-bottom: 75px;
+  max-width: 1200px;
+  min-width: 300px;
+}
+.SE {
+  display: flex;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+.frequentlyUsed {
+  display: flex;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.jobDefinition {
+  display: flex;
+  flex-direction: row;
+  font-weight: bold;
+  font-size: 18px;
+  gap: 120px;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  font-style: italic;
+}
+.jobDefinitionInfo {
+  padding-top: 20px;
+}
+.about {
+  font-size: 21px;
+  margin-bottom: 30px;
+}
+.me {
+  width: 20%;
+}
+
+.experience {
+  display: flex;
+  font-weight: 650;
+  justify-content: center;
+  background-color: $charcoal;
+  color: $cream;
+}
+
+.contact {
+  background-color: $cream;
+  color: $charcoal;
+  flex-direction: column;
+  height: 20vh;
+
+  .footerHead {
+    display: flex;
+    height: 64px;
+    font-size: 24px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    //border: 4px solid rgb(126, 26, 26);
+    //text-shadow: 0px 2px 2px #000;
+    padding-bottom: 22px;
+
+    .leftHead {
+      font-weight: bold;
+    }
+    .seperator {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    .rightHead {
+      font-weight: lighter;
+    }
+  }
+
+  .footerContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 21px;
+    gap: 16px;
+    margin-bottom: 66px;
+  }
+}
+
+.aboutMe {
+  display: flex;
+  background-color: $cream;
+  color: $charcoal;
+}
+.aboutBox {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  .section {
+    width: 33.33333334%;
+    padding: 16px;
+  }
+}
+
+.frameworkContainer {
+  //flex: 0 0 calc(10px); /* 10px for spacing */
+
+  text-align: center;
+  box-sizing: border-box;
+}
+.frameworkKotlin {
+  padding-top: 5px;
+  width: 40px;
+  display: block;
+  margin: 0 auto;
+}
+.frameworkJetbrains {
+  width: 70px;
+  display: block;
+  margin: 0 auto;
+}
+.frameworkAngular {
+  width: 55px;
+  display: block;
+  margin: 0 auto;
+}
+.frameworkKMM {
+  padding-top: 5px;
+  width: 45px;
+  display: block;
+  margin: 0 auto;
+}
+.frameworkNode {
+  padding-top: 5px;
+  width: 47px;
+  display: block;
+  margin: 0 auto;
+}
+.AMP {
+  background-color: #252525;
+  width: 100px;
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+  color: $cream;
+}
+
+@media (max-width: 768px) {
+  .containerMargin {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+@media (max-width: 900px) {
+  .footerContent {
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+}
+@media (max-width: 640px) {
+  .jobDefinition {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+  .jobDefinitionInfo {
+    padding-top: 0px;
+    text-align: center;
+  }
+  .me {
+    width: 50%;
+  }
+  .ZR {
+    font-size: 100px;
+  }
+  .aboutBox {
+    flex-direction: column-reverse;
+    align-items: center;
+    margin: auto;
+    .section {
+      width: 100%;
+    }
+  }
+  h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  .container {
+    height: 93vh;
+    .bodyTop {
+      .ZR {
+        font-size: 200px;
+      }
+    }
+    .bodyBottom {
+      .infotainer {
+        .ZR2 {
+          font-size: 36px;
+        }
+        .divider {
+          width: 100%;
+          margin: 6px 0;
+        }
+        .softwareEngineer {
+          font-size: 30px;
+        }
+      }
+    }
+  }
+  p {
+    text-align: start;
+  }
+  .skills {
+    .frameworks {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      font-size: 18px;
+    }
+  }
+  .about {
+    font-size: 18px;
+    //width: auto;
+  }
+  .frameworkContainer:nth-child(1),
+  .frameworkContainer:nth-child(2),
+  .frameworkContainer:nth-child(3),
+  .frameworkContainer:nth-child(4) {
+    flex: 0 0 calc(5%); /* First 4 items take 50% of the width */
+  }
+
+  .frequentlyUsed {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  .category {
+    ul {
+    }
+
+    .title {
+      font-size: 14px;
+    }
+  }
+  .contact {
+    .footerHead {
+      font-size: 18px;
+    }
+    .footerContent {
+      font-size: 14px;
+      gap: 8px;
+    }
+  }
+}

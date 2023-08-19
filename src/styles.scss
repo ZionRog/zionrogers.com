@@ -1,0 +1,36 @@
+/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin&family=Playfair+Display&family=Work+Sans&display=swap");
+html,
+body {
+  font-family: "Work Sans", sans-serif;
+  margin: 0;
+}
+
+.playfair {
+  font-family: "Playfair Display", sans-serif;
+}
+
+p {
+  margin: 0px;
+  text-align: justify;
+}
+
+h2 {
+  font-size: 55px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0px;
+  margin-bottom: 25px;
+  font-family: "Playfair Display", sans-serif;
+}
+h4 {
+  margin-bottom: 16px;
+  margin-top: 0px;
+  font-size: 20px;
+}
+h3 {
+  margin: 0px;
+  margin-bottom: 15px;
+  font-size: 30px;
+  font-family: "Playfair Display", sans-serif;
+}

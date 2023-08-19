@@ -1,0 +1,164 @@
+<!-- Toolbar -->
+<html>
+  <body>
+    <div class="container">
+      <div class="bodyTop">
+        <div class="ZR">ZR</div>
+      </div>
+      <div class="bodyBottom">
+        <div class="infotainer">
+          <div class="ZR2">ZION ROGERS</div>
+          <div class="divider"></div>
+          <div class="softwareEngineer">Software Engineer</div>
+        </div>
+        <div class="spacer"></div>
+        <div class="bottomNav">
+          <app-bottom-nav-buttons
+            *ngFor="let section of sections"
+            [text]="section"
+            [active]="activeSection === section.toLowerCase()"
+            (clicked)="setActiveSection($event)"
+          ></app-bottom-nav-buttons>
+        </div>
+      </div>
+    </div>
+    <div id="skills" class="skills">
+      <div class="containerMargin">
+        <h2>Technical Skills</h2>
+        <p class="about">
+          I have worked with a few different frameworks and languages. For web
+          applications I prioritize Angular / Typescript. Whenever I am working
+          on a mobile application I use Kotlin Multiplatform Mobile and native
+          Android. Being here I have also dabbled a bit in Node and Firebase for
+          the backend.
+        </p>
+        <div class="frameworks">
+          <div class="frameworkContainer">
+            <span>KOTLIN</span>
+            <img src="assets/logos/kotlin.svg" class="frameworkKotlin" />
+          </div>
+          <div class="frameworkContainer">
+            <span>COMPOSE</span>
+            <img src="assets/logos/jetbrains.svg" class="frameworkJetbrains" />
+          </div>
+          <div class="frameworkContainer">
+            <span>ANGULAR</span>
+            <img src="assets/logos/angular.svg" class="frameworkAngular" />
+          </div>
+          <div class="frameworkContainer">
+            <span>KMM/KMP</span>
+            <img src="assets/logos/compose.svg" class="frameworkKMM" />
+          </div>
+          <div class="frameworkContainer">
+            <span>NODE</span>
+            <img src="assets/logos/node.svg" class="frameworkNode" />
+          </div>
+        </div>
+        <div class="frequentlyUsed">Most Frequently Used Tools</div>
+        <div class="category">
+          <ul>
+            <li class="title">Kotlin / KMP / Compose</li>
+            <li class="title">Typescript / Javascript</li>
+            <li class="title">XML / HTML / SCSS</li>
+            <li class="title">Gradle</li>
+          </ul>
+        </div>
+        <p class="about">
+          Check out my
+          <a
+            href="https://docs.google.com/document/d/1dXMlpinxheR2uT51Wt3FvAyFJh2tGSNgEjHEIVElpis/edit?usp=sharing"
+            style="text-decoration: underline"
+            >resume</a
+          >
+          to view all of my technical skills and accomplishments.
+        </p>
+      </div>
+    </div>
+    <div id="about-me" class="aboutMe">
+      <div class="containerMargin">
+        <h2>about me</h2>
+
+        <div class="aboutBox">
+          <!--
+          <div class="sectionImage">
+            <img src="assets/logos/compose.svg" />
+          </div>
+          -->
+          <img src="assets/pictures/me.jpg" class="section" class="me" />
+
+          <div class="section">
+            <h4>My Tech Interests</h4>
+            I have always loved the tech industry as a whole. I am very avid
+            with keeping up with modern tech and practices. Last year in early
+            january I was offered an oppurtunity to work while I learn. I always
+            had an interest in development, so I took the oppurtunity and ran
+            with it. I am avid in learning more and becoming a better developer
+            day by day.
+            <div>
+              My recent careers were service and other various positions similar
+              to service, but those did not feel like me. I am very happy to be
+              in the tech industry and I am excited to see where it takes me.
+            </div>
+          </div>
+          <div class="section">
+            <h4>My Personal Interests</h4>
+            In my free time I enjoy traveling and nature. I also dabble a bit in
+            real estate and investing. I am still young and there is a lot for
+            me to see still :)
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="experience" class="experience">
+      <div class="containerMargin">
+        <h2 class="ee">work experience</h2>
+        <div class="SE">Software Engineer</div>
+        <div class="jobDefinition">
+          <span class="jobDefinitionInfo"> AMP AMBITIONS LLC </span
+          ><img src="assets/logos/AMP.svg" class="AMP" />
+          <span class="jobDefinitionInfo"> January 2022 - Present</span>
+        </div>
+        <p class="about">
+          I was invited to get education and training on the job. Here we
+          developed mobile applications using Kotlin Multiplatform Mobile and
+          native Android. Occasionally I would volunteer to help with web work
+          and backend work.
+        </p>
+      </div>
+    </div>
+    <div id="contact" class="contact">
+      <div class="footerHead">
+        <div class="leftHead">ZION ROGERS</div>
+        <span class="seperator"> | </span>
+
+        <div class="rightHead">SOFTWARE ENGINEER</div>
+      </div>
+      <div class="footerContent">
+        <span>
+          <a
+            class="ee"
+            href="https://github.com/ZionRog"
+            style="text-decoration: underline; font-weight: bold"
+            >LINKEDIN</a
+          >
+        </span>
+        <span>
+          <a
+            class="ee"
+            href="https://www.linkedin.com/in/zionrogers/"
+            style="text-decoration: underline; font-weight: bold"
+            >GITHUB</a
+          >
+        </span>
+        <span>
+          <a
+            class="ee"
+            href="mailto:ZRDevelopment21@gmail.com"
+            style="text-decoration: underline; font-weight: bold"
+            >ZRDEVELOPMENT21@GMAIL.COM</a
+          >
+        </span>
+      </div>
+    </div>
+  </body>
+</html>
