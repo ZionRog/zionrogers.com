@@ -275,6 +275,9 @@ a:active {
   }
 }
 @media (max-width: 640px) {
+  .SE {
+    font-size: 28px;
+  }
   .jobDefinition {
     flex-direction: column;
     gap: 10px;
@@ -338,13 +341,12 @@ a:active {
   }
   .about {
     font-size: 18px;
-    //width: auto;
   }
   .frameworkContainer:nth-child(1),
   .frameworkContainer:nth-child(2),
   .frameworkContainer:nth-child(3),
   .frameworkContainer:nth-child(4) {
-    flex: 0 0 calc(5%); /* First 4 items take 50% of the width */
+    flex: 0 0 calc(5%);
   }
 
   .frequentlyUsed {
@@ -352,9 +354,6 @@ a:active {
     margin-bottom: 15px;
   }
   .category {
-    ul {
-    }
-
     .title {
       font-size: 14px;
     }
