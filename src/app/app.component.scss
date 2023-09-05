@@ -280,7 +280,7 @@ $cream: #fffef2;
   .ZR {
     font-size: 100px;
   }
-  .aboutBox {
+  .aboutMeBox {
     flex-direction: column-reverse;
     align-items: center;
     margin: auto;
@@ -376,7 +376,7 @@ $cream: #fffef2;
   }
 }
 @media (max-width: 900px) {
-  .aboutBox {
+  .aboutMeBox {
     flex-direction: column-reverse;
     .section {
       margin: 4px 16px;
