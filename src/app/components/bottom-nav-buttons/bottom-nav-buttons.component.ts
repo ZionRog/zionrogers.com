@@ -12,7 +12,7 @@ export class BottomNavButtonsComponent {
 
   navigate(): void {
     const sectionId = this.text.toLowerCase().replace(/ /g, '-');
-    this.clicked.emit(sectionId); // Emit the sectionId to the parent component
+    this.clicked.emit(sectionId);
 
     const sectionElement = document.getElementById(sectionId);
     if (sectionElement) {

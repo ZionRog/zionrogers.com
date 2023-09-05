@@ -18,7 +18,6 @@ export class AppComponent {
     const experienceElement = document.getElementById('experience');
     const contactElement = document.getElementById('contact');
     const aboutElement = document.getElementById('about-me');
-    // ... Other sections
 
     if (skillsElement && window.scrollY >= skillsElement.offsetTop) {
       this.activeSection = 'skills';
@@ -32,6 +31,5 @@ export class AppComponent {
     if (aboutElement && window.scrollY >= aboutElement.offsetTop) {
       this.activeSection = 'about-me';
     }
-    // ... Continue for other sections
   }
 }

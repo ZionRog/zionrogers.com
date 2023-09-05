@@ -1,5 +1,4 @@
-/* You can add global styles to this file, and also import other style files */
-@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin&family=Playfair+Display&family=Work+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin&family=Merriweather&family=Playfair+Display&family=Work+Sans&display=swap");
 html,
 body {
   font-family: "Work Sans", sans-serif;
@@ -24,13 +23,23 @@ h2 {
   font-family: "Playfair Display", sans-serif;
 }
 h4 {
-  margin-bottom: 16px;
+  margin-bottom: 12px;
   margin-top: 0px;
-  font-size: 20px;
+  font-size: 23px;
+  font-weight: 400;
+  font-family: "Merriweather", serif;
 }
 h3 {
   margin: 0px;
   margin-bottom: 15px;
   font-size: 30px;
   font-family: "Playfair Display", sans-serif;
+}
+$cream: #fffef2;
+
+a,
+a:visited,
+a:hover,
+a:active {
+  color: $cream;
 }
