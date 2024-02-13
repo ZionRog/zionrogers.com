@@ -187,6 +187,7 @@ $cream: #fffef2;
   .footerContent {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     font-weight: 600;
     font-size: 21px;
